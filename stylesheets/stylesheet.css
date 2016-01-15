@@ -11,17 +11,20 @@ body
   line-height: 1.5;
   color: #FFFFFF;
   background: linear-gradient(#1C1C1C,#585858);
-
   
 }
 
 .imp
 {
-	color: orange;
+	color: crimson;
+}
+.mrgn-bot
+{
+	
 }
 
 a {
-  color: yellow;
+  color: orange;
   font-style: normal;
   text-decoration: none; }
   a:hover {
