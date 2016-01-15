@@ -1,22 +1,38 @@
 * {
   box-sizing: border-box; }
 
-body {
+body 
+{
   padding: 0;
   margin: 0;
+ 
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
-  background-color: black;
+  color: #FFFFFF;
+  background: linear-gradient(#1C1C1C,#585858);
+
   
 }
 
+.imp
+{
+	color: orange;
+}
+
 a {
-  color: #1e6bb8;
+  color: yellow;
+  font-style: normal;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+	font-style: oblique;
+	color: white;
+	}
+	a:visited
+	{
+		font-style: oblique;
+	}
 
 .btn {
   display: inline-block;
@@ -31,12 +47,22 @@ a {
   .btn + .btn {
     margin-left: 1rem; }
 
-.btn:hover {
+.btn:hover 
+    {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
+  font-style: normal;
   background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+  border-color: rgba(255, 255, 255, 0.3); 
+  
+  }
 
+  .btn:visited
+	{
+	 color: white;
+	 text-decoration: none;	 
+	}
+  
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
@@ -56,11 +82,17 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-.page-header {
-  color: #fff;
+.page-header
+ {
+  color: #ffff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  color: white;
+  font-family: Modern;
+
+  
+  background: linear-gradient(720deg,transparent,white);
+
+  }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -115,7 +147,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: Red; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
