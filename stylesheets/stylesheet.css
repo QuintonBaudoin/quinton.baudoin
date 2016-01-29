@@ -1,6 +1,15 @@
 * {
   box-sizing: border-box; }
+@font-face {
+  font-family: custom;
+  src: url(BorisBlackBloxx.ttf);
+ 
+}
+@color{
+	color: red;
 
+	
+}
 body 
 {
   padding: 0;
@@ -24,13 +33,13 @@ body
 }
 
 a {
-  color: orange;
+  color: #33FF00;
   font-style: normal;
   text-decoration: none; }
   a:hover {
     text-decoration: underline;
 	font-style: oblique;
-	color: white;
+	color: Red;
 	}
 	a:visited
 	{
@@ -88,14 +97,20 @@ a {
 .page-header
  {
   color: #ffff;
-  text-align: center;
-  color: white;
-  font-family: Modern;
-
+  text-align: justify;
+  color: #66FF00 ;
+  font-size: 5px;
+  
   
   background: linear-gradient(720deg,transparent,white);
 
   }
+.ram
+{
+	font-family: custom;
+	color:black;
+	 text-shadow: 2px 2px #ff0000;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
